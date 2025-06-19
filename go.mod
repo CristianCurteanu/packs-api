@@ -2,7 +2,10 @@ module github.com/CristiCurteanu/pack-api
 
 go 1.23.10
 
-require github.com/gofiber/fiber/v2 v2.52.8
+require (
+	github.com/gofiber/fiber/v2 v2.52.8
+	github.com/samber/lo v1.51.0
+)
 
 require (
 	github.com/andybalholm/brotli v1.1.0 // indirect
@@ -16,4 +19,5 @@ require (
 	github.com/valyala/fasthttp v1.51.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 )
